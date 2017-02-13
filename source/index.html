@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Incident Report Form</title>
+    <!-- Custom Stuff -->
+    <link href="../assets/css/scott.css" rel="stylesheet">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="upHere">
+<!--
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </nav><!--/.navbar-collapse -->
+
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container" >
+
+        <h1 id="iSupport">Incident Report Form</h1>
+        <p id="iSupportP">Have you experienced a butthurting? Do you need to report it? Use this form to log your feels.</p>
+        <p><a class="btn btn-primary btn-lg" rel="tooltip" data-placement="right" title="Don't cry, don't be weird" role="button" id='buttonId'>Click for Feels</a>
+
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Example row of columns -->
+      <div class="row" id="row">
+        <div class="col-md-7">
+          <h2 id="ouchie" name="ouchie">File A Complaint</h2>
+          <div id="intro" name="intro"></div>
+          <div id="container">  <div><ul id="lister"></ul></div></div>
+
+          <form id="myForm" name="myForm">
+            <fieldset class="form-group">
+              <label for="name">Your Name</label>
+              <input type="name" class="form-control" id="name" placeholder="The id that makes you a special snowflake">
+              <small class="text-muted">We will collect this data and send it to the gov</small>
+            </fieldset>
+            <!--
+            <fieldset class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+              <small class="text-muted">We'll never share your email with anyone else.</small>
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </fieldset>
+
+            <fieldset class="form-group">
+              <label for="exampleSelect1">Example select</label>
+              <select class="form-control" id="exampleSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </fieldset>
+
+            <fieldset class="form-group">
+              <label for="exampleSelect2">Example multiple select</label>
+              <select multiple class="form-control" id="exampleSelect2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="exampleTextarea">Example textarea</label>
+              <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+            </fieldset>
+            <fieldset class="form-group">
+              <label for="exampleInputFile">File input</label>
+              <input type="file" class="form-control-file" id="exampleInputFile">
+              <small class="text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+            </fieldset>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Option one is this and that&mdash;be sure to include why it's great
+              </label>
+            </div>
+            -->
+            <fieldset class="form-group">
+              <label for="exampleSelect1">Your Pain Level</label>
+              <select class="form-control" id="exampleSelect1">
+                <option name="painCave" value=" has a boo-boo.">1. Less Pain</option>
+                <option name="painCave" value=" needs to be healed by Celine Dion music.">2. Kinda hurtin'</option>
+                <option name="painCave" value=" needs to be held.">3. Owie</option>
+                <option name="painCave" value="'s milk was a little warm.">4. It's gettin hot in hur</option>
+                <option name="painCave" value=" burned the water while cooking.">5. Burning man(and or woman)</option>
+                <option name="painCave" value=" missed The Bachelor.">6.66</option>
+                <option name="painCave" value="'s Mom didn't renew Netflix.">7. Like stepped on a 'Lego' pain</option>
+                <option name="painCave" value="'s coffee was tepid">8. In the Pain Cave</option>
+                <option name="painCave" value="'s Tumblr page didn't get enough likes">9. You don't understand my pain here</option>
+                <option name="painCave" value=" has witnessed Nickelback live">10. FEEL THE BERN</option>
+              </select>
+            </fieldset>
+            <label for="gender">Your Gender</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value=" a crybaby">
+                Manly Man
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value=" the lady type">
+                Non-Man
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value=" someone who identifies with liquid">
+                Gender Fluid
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value=" needs a life">
+                Dark Wood Elf
+              </label>
+            </div>
+
+            <hr>
+
+            <label for="[P]oliticTitle">Your Political Preference</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsPolitics" id="optionsPolitics" value="Liberal">
+                Liberal
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsPolitics" id="optionsPolitics" value="Conservative">
+                Conservative
+              </label>
+            </div>
+
+            <button id="btn1" type="button" onClick="run()" class="btn btn-primary">Submit</button>
+
+          </form>
+
+
+        </div>
+        <div id="imageSet" class="col-md-5">
+          <h2 id="imageHeader">Your Feelings Are Special</h2>
+          <p id="imageSubtitle">You're a unicorn, a special snowflake, no one is as important to you and everything done is all a personal attacks towards you.  Here is a pink unicorn to help heal the pain.</p>
+          <div id="chartContainer" style="height: 300px; width: 100%;"><img src="./assets/img/unicorn-01.svg"
+		      </div>
+        </div>
+
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2016 ThigpenDesigns</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/canvasjs.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../assets/js/hurtii.js"></script>
+    <script>
+    $( "#btn1" ).click(function() {
+      function complete() {
+
+      }
+      $( "#myForm" ).fadeOut( 400, "linear", complete );
+
+    });
+
+</script>
+
+  </body>
+</html>

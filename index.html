@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta property="og:url"                content="http://www.ihaveasad.com" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="When you need to file a FEELINGS Report" />
+<meta property="og:description"        content="Has someone hurt ALL of your feelings? Use this form to get that person back and stop the pain." />
+<meta property="og:image"              content="http://ihaveasad.com/assets/img/sad.jpg" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@sthig" />
+<meta property="og:url" content="http://ihaveasad.com/" />
+<meta property="og:title" content="I have a sad, I need to report it" />
+<meta property="og:description" content="Have you experienced a feel? Do you need to report it? Use this form to log your suffering." />
+<meta property="og:image" content="http://ihaveasad.com/assets/img/sad.jpg" />
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+
+  <title>Incident Report Form</title>
+  <!-- Custom Stuff -->
+  <link href="./assets/css/scott.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="./assets/css/jumbotron.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- didin't work
+
+  -->
+  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+
+  <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+  <script src="./assets/js/ie-emulation-modes-warning.js"></script>
+
+  <!-- <script src="./assets/js/validator.js"></script> -->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73773592-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <script language="JavaScript">
+    function TriggeredKey(e) {
+      var keycode;
+      if (window.event) keycode = window.event.keyCode;
+      if (window.event.keyCode != 13) return false;
+    }
+  </script>
+</head>
+
+<body id="upHere" onkeydown="TriggeredKey(this)">
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=209867732369768";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+
+      <h1 id="iSupport">Incident Report Form</h1>
+      <p id="iSupportP">Have you experienced a feel? Do you need to report it? Use this form to log your suffering.</p>
+      <p><a class="btn btn-primary btn-lg" rel="tooltip" data-placement="right" title="Don't cry, don't be weird" role="button" id='buttonId'>Click for Feels</a>
+
+      </p>
+    </div>
+  </div>
+
+  <div class="container" id="overlay">
+
+    <!-- Example row of columns -->
+    <div class="row" id="row">
+      <div class="col-md-7">
+        <h2 id="ouchie" name="ouchie">File A Complaint</h2>
+        <div id="intro" name="intro"></div>
+        <div id="container">
+
+          <div>
+            <ul id="lister"></ul>
+
+          </div>
+        </div>
+
+        <!--Form -->
+        <form id="myForm" name="myForm" role="form" data-toggle="validator">
+          <fieldset class="form-group">
+            <label for="name"><i class="fa fa-user"></i> Your First Name </label>
+            <input type="name" minlength="2" class="form-control" id="name" placeholder="The id that makes you a special snowflake" required/>
+            <small class="text-muted">Make sure to pick your special name, the one mumsy still calls you.</small>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <label for="gender"><i class="fa fa-transgender-alt"></i> Your Gender </label>
+            <div class="form-group">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value=" a crybaby" > Manly Man
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value=" the lady type" > Non-Man
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value=" a radar technician." > Jedi
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value=" is in need of a life" > Dark Wood Elf
+                </label>
+              </div>
+
+            </div>
+          </fieldset>
+          <fieldset>
+            <label for="[P]oliticTitle"><i class="fa fa-university"></i> Your Political Preference </label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsPolitics" id="optionsPolitics" value="Liberal" required /`> Liberal
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsPolitics" id="optionsPolitics" value="Conservative" required /`> Conservative
+              </label>
+            </div>
+          </fieldset>
+          <br>
+          <fieldset class="form-group">
+            <label for="exampleSelect3"><i class="fa fa-medkit"></i> Please Describe the Nature of the Feels </label>
+            <select class="form-control" id="exampleSelect3">
+              <option name="painCave" value="User places way too much emphasis on Social Media">Meanie Facebook Post</option>
+              <option name="painCave" value="User has an affinity to the hashtag, #poop">Poopy Comment On Twitter</option>
+              <option name="painCave" value="Tumblr is not a real blog, sorry.">Hurtful Blog Post</option>
+              <option name="painCave" value="You...actually believe anything on Tumblr???">Tumblr Comment</option>
+              <option name="painCave" value="Sounds like someone needs a hug, #notyou ">Vague Internet Comment about me</option>
+              <option name="painCave" value="WTF NICKELBACK IS THE GREATEST THING SINCE THE EASTER BUNNY AND YOU KNOW IT!">Nickelback was on Pandora</option>
+            </select>
+          </fieldset>
+
+          <label for="name"><i class="fa fa-user"></i> The Offender's Name </label>
+          <input type="name" class="form-control" id="bName" placeholder="Who hurt all your feelings?" required/>
+          <small class="text-muted">We will collect this data and send it to the gov, they will find out you like cats.</small>
+          </fieldset>
+
+          <fieldset class="form-group">
+            <label for="exampleSelect1"><i class="fa fa-line-chart"></i> The Amount of Pain you Experienced </label>
+            <select class="form-control" id="exampleSelect1">
+              <option name="painCave" value=" has a boo-boo.">1. Less Pain</option>
+              <option name="painCave" value=" needs to be healed by Celine Dion music.">2. Kinda hurtin'</option>
+              <option name="painCave" value=" needs to be held.">3. Owie</option>
+              <option name="painCave" value="'s milk was a little warm.">4. It's gettin hot in hur</option>
+              <option name="painCave" value=" burned the water while cooking.">5. Burning man(and or woman)</option>
+              <option name="painCave" value=" missed The Bachelor.">6.66</option>
+              <option name="painCave" value="'s Mom didn't renew Netflix.">7. Like stepped on a 'Lego' pain</option>
+              <option name="painCave" value="'s coffee was tepid">8. In the Pain Cave</option>
+              <option name="painCave" value="'s Tumblr page didn't get enough likes">9. You don't understand my pain here</option>
+              <option name="painCave" value=" has witnessed Nickelback live">10. FEEL THE BERN</option>
+            </select>
+          </fieldset>
+
+
+          <fieldset class="form-group">
+            <label for="exampleSelect2"><i class="fa fa-film"></i> Choose A Movie That Best Describes Your Pain </label>
+            <select class="form-control" id="exampleSelect2">
+              <option name="painCave" value=" is probably a JavaScript developer.">Star Wars: The Force Awakens</option>
+              <option name="painCave" value=" has problems understand what good movies are supposed to be like.">The Notebook</option>
+              <option name="painCave" value=" sucks for liking Michael Bay movies.">Any movie by Michael Bay</option>
+              <option name="painCave" value=" has had too many kids.">Frozen</option>
+              <option name="painCave" value=" is from the South.">Deliverance</option>
+              <option name="painCave" value=" is sad because the Sorting Hat hates you.">Harry Potter</option>
+              <option name="painCave" value=" is a nasty, fat hobbitses">Lord of the Rings</option>
+              <option name="painCave" value=" is a woman.">The Exorcist</option>
+              <option name="painCave" value=" Likes Big Kahuna Burgers.">Pulp Fiction</option>
+              <option name="painCave" value=" is Wicked and not popular.">Wizard of Oz</option>
+            </select>
+          </fieldset>
+          <br>
+          <button type="submit" id="btn1" class="btn btn-primary">Submit</button>
+          <input class="btn btn-danger" type="reset" value="Reset">
+
+          <br>
+          <br>
+        </form>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">My First javaScript Project</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row" id="rowModal">
+                  <div class="col-md-5"><img class="media-object" src="./assets/img/robot4form.png" alt="Scott Thigpen">
+                  </div>
+                  <div class="col-md-7">
+                   <p>
+                   Much appreciation to <a href="https://twitter.com/davemcfarland"><b>Dave McFarland</b></a> at <a href="https://teamtreehouse.com">TeamTreehouse.com</a> for his awesome lessons in Javascript.
+                   <p>
+                   <p>Also a big, big shout out to <a href="https://twitter.com/justinlicata"><b>Justin Licata</b></a> and <a href="https://twitter.com/BryanSaxon"><b>Bryan Saxon</b></a> who helped me when I got stuck on this project.</p>
+                   <br>
+                   <p>If you’re not a nerd and reading this, please know all this was created as a way for me to learn JavaScript and nothing should be taken seriously. Please don't get <i>butthurt</i> about it.</p>
+                 </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!--STUCK HERE-->
+        <div id="imageSet" class="col-md-5">
+          <h2 id="imageHeader">Your Feelings Are Special</h2>
+          <p id="imageSubtitle">You're a unicorn, a special snowflake, no one is as important as you and everything done is all a personal attack on you. Here is a pink unicorn to help heal the pain.</p>
+          <div id="chartContainer" style="height: 300px; width: 100%;" align="middle"><img id="unicorn" src="./assets/img/unicorn.gif" </div>
+            <div id="canvas-holder" align="middle">
+
+              <canvas id="canvas"></canvas>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- /container -->
+
+      <footer>
+        <br>
+        <p><a href="https://github.com/sThig/The-Feels"><i class="fa fa-github"></i></a>
+          <br> &copy; 2016 Scott Thigpen. </p>
+      </footer>
+
+      <div class="alert alert-info" role="alert">
+        <strong>Hey Read Me!</strong> This is a fun project. No data was collected or stored and it's intent was to have a few lolz. Please do not take anything here to heart.
+        <div class="fb-share-button" data-href="http://ihaveasad.com/" data-layout="button_count"></div>
+      </div>
+
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+
+
+      <script type="text/javascript" src="./assets/js/canvasjs.min.js"></script>
+      <script>
+        window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')
+      </script>
+      <script src="./dist/js/bootstrap.min.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+      <script src="./assets/js/hurtii.js"></script>
+      <script src="./assets/js/Chart.js"></script>
+      <script src="./dist/jquery.validate.js"></script>
+      <script src="assets/js/loadingoverlay.min.js"></script>
+
+
+</body>
+
+</html>
